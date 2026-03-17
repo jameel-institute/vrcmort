@@ -1,7 +1,7 @@
 # vrcmort
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/OJWatson/vrcmort)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jameel-institute/vrcmort)
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
-[![R-CMD-check](https://github.com/OJWatson/vrcmort/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/OJWatson/vrcmort/actions)
+[![R-CMD-check](https://github.com/jameel-institute/vrcmort/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jameel-institute/vrcmort/actions)
 
 `vrcmort` provides tools for fitting hierarchical Bayesian models to vital
 registration (VR) mortality counts when the VR reporting mechanism changes over
@@ -22,7 +22,7 @@ This repository is structured as an R package. For local development:
 
 ```r
 # install.packages("devtools")
-devtools::install("path/to/vrcmort")
+devtools::install("jameel-institute/vrcmort")
 ```
 
 The package uses Stan via `rstan`. You will need a working C++ toolchain and a
